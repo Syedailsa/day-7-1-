@@ -1,11 +1,14 @@
-var guest = [
-    "miral",
-    "sundas",
-    "urooj",
-    "alla dawas",
-    "umair",
-    "ali",
-    "amal",
-    "bilal",
+var starter = [
+    "soup",
+    "prawns",
+    "orange juice",
 ];
-console.log(guest.length);
+var dinner = [
+    "chicken rice",
+    "cheese pasta",
+];
+var dessert = [
+    "choclate cake",
+    "pineapple cake",
+];
+console.log("PARTY MENU:\n  STARTER: ".concat(starter, "\n  DINNER: ").concat(dinner, "\n  DESSERT: ").concat(dessert, "\n"));
