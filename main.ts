@@ -1,12 +1,19 @@
-var guest = [
-    "miral",
-    "sundas",
-    "urooj",
-    "alla dawas",
-    "umair",
-    "ali",
-    "amal",
-    "bilal",
+let starter: string[] = [
+    "soup",
+    "prawns",
+    "orange juice",
 ];
-//length of items in array
-console.log(guest.length);
+let dinner: string[] = [
+    "chicken rice",
+    "cheese pasta",
+];
+let dessert: string[] = [
+    "choclate cake",
+    "pineapple cake",
+];
+
+console.log(`PARTY MENU:
+  STARTER: ${starter}
+  DINNER: ${dinner}
+  DESSERT: ${dessert}
+`);
